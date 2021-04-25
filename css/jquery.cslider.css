@@ -170,11 +170,11 @@
 }
 .da-arrows span.da-arrows-prev {
     left: 15px;
-    background:transparent url(../images/Left.png) no-repeat center center;
+    background:transparent url(../images/row-left.png) no-repeat center center;
 }
 .da-arrows span.da-arrows-next {
     right: 15px;
-    background:transparent url(../images/Right.png) no-repeat center center;
+    background:transparent url(../images/row-right.png) no-repeat center center;
     
 }
 .da-slide-current h2, .da-slide-current h4, .da-slide-current p, .da-slide-current .da-link {

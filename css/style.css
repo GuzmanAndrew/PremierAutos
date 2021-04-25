@@ -33,11 +33,13 @@
     line-height:1.2em;
     font-size:17px;
     line-height:20px;
+    margin: 0;
 }
 a {
     color:#181A1C;
     text-decoration: none;
 }
+
 a:hover {
     color: #fff;
     text-decoration:none;
@@ -90,7 +92,7 @@ p {
     transition: border-color 1s ease;
 }
 .navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-    border: 1px solid #fff;
+    border: 1px solid #ffc107;
     color: #fff;
     background-color: #181A1C;
     transition: border-color 1s ease;
@@ -117,6 +119,34 @@ p {
     background:#fff;
     color: #000;
 }
+.da-slider p {
+    height: 145px !important;
+}
+.box {
+    overflow: hidden;
+}
+
+.content {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.left .content {
+    border-right: 1.8px solid #ffc107;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
 /******
 2. Layout
 **********************************************************************/
@@ -315,7 +345,7 @@ p {
     list-style: none;
     float: none;
     position:relative;
-    margin:5px; auto;
+    margin:5px auto;
 }
 .social li {
     display:inline-block;
@@ -329,10 +359,10 @@ p {
     padding:0;
     width:32px;
     height:32px;
-    color: #fff;
+    color: black;
 }
 .social li a:hover {
-    color:#181A1C;
+    color:#ffc107;
 }
 /*
 3. Sections 
@@ -488,16 +518,16 @@ p {
     z-index: 5;
 }
 .team .thumbnail:hover .social a {
-    color:#fff;
+    color:black;
 }
 .team .thumbnail .mask {
-    background: #fff;
+    background: black;
 }
 .team .thumbnail .mask h2 {
     margin-top:20%;
 }
 .team .thumbnail .mask, .team .thumbnail .mask h3, .team .thumbnail .mask p, .team .thumbnail:hover h3, .team .thumbnail:hover .social a:hover {
-    color:#181A17;
+    color:#ffc107;
 }
 .about-text {
     margin-top:30px;
@@ -701,7 +731,7 @@ p {
     height: 120px;
 }
 .contacts, .contact .social {
-    color: #fff;
+    color: black;
     list-style: none;
     margin-left: 10px;
 }
@@ -709,7 +739,7 @@ p {
     margin-top: 15px;
 }
 .contacts > li > a {
-    color: #fff;
+    color: black;
 }
 .contact-info {
     margin-top:10px;
@@ -750,18 +780,19 @@ p {
     -webkit-transition: margin 0.4s;
 }
 .contact .social li a {
-    color:#fff;
+    color:black;
 }
 .contact .social li a:hover {
-    color:#181A1C;
+    color:#ffc107;
 }
 .contact-form {
     background:#fff;
     background: rgba(255, 255, 255, 0.9);
     z-index:110;
     position:relative;
-    margin-top:-25px;
+    margin-top:-36px;
     padding:20px;
+    height: 475px;
 }
 .contact-form h3 {
     color:#838589;
@@ -771,7 +802,7 @@ p {
     border:1px solid #747C89;
     color:#747C89;
     background-color:transparent;
-    padding:15px 30px;
+    padding:8px 25px;
     font-size:17px;
 }
 .message-btn:hover {
@@ -791,6 +822,7 @@ p {
 .black {
     color:#181A1C;
 }
+
 /*
 3.8 Footer
 ********************************************************************/
